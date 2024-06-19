@@ -1,0 +1,5 @@
+/* criando a configuração grid */
+.wrapper {
+    display: grid;
+    grid-template-columns: 256px auto; /* criando uma coluna em grid com 256px de tamanho/largura */
+}

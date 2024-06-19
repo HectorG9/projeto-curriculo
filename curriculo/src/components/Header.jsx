@@ -1,4 +1,6 @@
+// Importando o styles header 
 import styles from "./header.module.css";
+// criando o Header
 export default function Header() {
   return (
     <header className={styles.header}>
