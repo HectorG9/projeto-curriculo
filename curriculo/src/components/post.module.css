@@ -43,7 +43,7 @@
 }
 
 .content a {
-    display: block;
+    display: block; /* aqui eu dei uma quebra na linha dos 2 links */
     font-weight: bold;
     color: var(--green-500);
     text-decoration: none;
