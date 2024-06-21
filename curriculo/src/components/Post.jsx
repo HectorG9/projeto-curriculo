@@ -1,11 +1,13 @@
-
+// importandi o style
+import style from './post.module.css';
+// criando o post
 export default function Post() {
   return (
-    <article>
+    <article className={style.post}>
       <header>
-        <div>
+        <div className={style.author}>
           <img src="https://cdn-icons-png.flaticon.com/256/7967/7967000.png" alt="" />
-          <div>
+          <div className={style.authorInfo}>
             <strong>Hector Grôppo G. Monteiro</strong>
             <span>Programador Frontend</span>
             <span>Automação em Python</span>

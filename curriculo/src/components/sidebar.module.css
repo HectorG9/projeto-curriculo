@@ -17,8 +17,8 @@
 }
 /* estilização da foto do avatar */
 .avatar {
-    width: 7rem;
-    height: 7rem;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;  /* formato circular na foto */
     object-fit: cover;
 }
