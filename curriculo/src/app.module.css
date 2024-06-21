@@ -1,7 +1,10 @@
-/* criando a configuração grid */
+/* criando a configuração grid (configuração principal da estrutura toda) */
 .wrapper {
     display: grid;
     grid-template-columns: 256px auto; /* criando uma coluna em grid com 256px de tamanho/largura */
     max-width: 70rem;
+    margin-top: 20px;
     margin: 0 auto;
+    padding: 1rem;
+    gap: 2rem;
 }

@@ -14,7 +14,7 @@ export default function Post() {
           </div>
         </div>
       </header>
-      <div>
+      <div className={style.content}>
         <p>Sobre Mim</p> {/* sobre mim */}
         <p>Estudei remotamente por conta própria, cursos sobre linguagem de programação python, e desenvolvimento full stack </p>
         <p>Formado profissionalmente através do senai no curso de desenvolvimento frontend</p> 
