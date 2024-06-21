@@ -1,0 +1,55 @@
+.sidebar {
+    background-color: var(--gray-800);
+    border-radius: 10px;
+}
+/* Cortar e comprimir a imagem de fundo */
+.cover {
+    width: 100%;   /* ocupar 100% do sidebar */
+    height: 80px;  /* Vai achatar a imagem porem não é o ideal, por isso ajustar abaixo com object-fit */
+    object-fit: cover; /* vai ajustar a imagem ao invés de achata-la */
+}
+/* estilização da div toda */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* estilização da foto do avatar */
+.avatar {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;  /* formato circular na foto */
+    object-fit: cover;
+}
+
+.profile strong {
+    margin-top: 2rem;
+    color: var(--gray-100);
+    line-height: 1.6;
+}
+
+.profile span {
+    color: var(--green-300);
+    line-height: 1.6;
+    font-size: 0.875rem;  /* 0.875rem x 16 = 14px */
+    margin-bottom: 10px;
+}
+
+.sidebar footer a {
+    border: 1px solid var(--green-500);
+    height: 50px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    /* padding: 0 1.5rem; */
+    justify-content: center;
+    align-items: center;
+    color: var(--red-500); 
+}
+
+.sidebar footer a:hover {
+    background-color: var(--green-500);
+    color: var(--gray-100);
+}

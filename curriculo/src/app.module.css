@@ -2,4 +2,6 @@
 .wrapper {
     display: grid;
     grid-template-columns: 256px auto; /* criando uma coluna em grid com 256px de tamanho/largura */
+    max-width: 70rem;
+    margin: 0 auto;
 }
