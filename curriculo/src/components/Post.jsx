@@ -15,14 +15,14 @@ export default function Post() {
         </div>
       </header>
       <div className={style.content}>
-        <p>Sobre Mim</p> {/* sobre mim */}
+        <h2>Sobre Mim</h2> {/* sobre mim */}
         <p>Estudei remotamente por conta própria, cursos sobre linguagem de programação python, e desenvolvimento full stack </p>
         <p>Formado profissionalmente através do senai no curso de desenvolvimento frontend</p> 
         <p>Calistenico, disciplinado, gosto de exatas, livros, games e tecnologia no geral</p>
-        <p>Link Repositórios</p>
+        <h2>Link Repositórios</h2>
         <a href="https://github.com/HectorG9">Repositório1</a>
         <a href="https://github.com/hectorgroppo">Repositório2</a>
-        <p>Ultimo Projeto</p>
+        <h2>Ultimo Projeto</h2>
         <a href="https://replicando-site-14x42jb5z-hectorg9s-projects.vercel.app/">Projeto Netflix, em andamento</a>
       </div>
       <form action="">
