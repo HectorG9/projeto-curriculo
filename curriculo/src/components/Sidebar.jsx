@@ -7,7 +7,7 @@ export default function Sidebar() {
      <aside className={style.sidebar}> {/*configuração para todo o aside/sidebar*/}
       <img className={style.cover} src="https://blog.hubdodesenvolvedor.com.br/wp-content/uploads/2024/03/capa-linguagens-em-alta.jpg" alt="" />
       <div className={style.profile}>
-        <img className={style.avatar} src="https://cdn-icons-png.flaticon.com/256/7967/7967000.png" alt="" />
+        <img className={style.avatar} src="./src/assets/foto2.jpeg" alt="" />
         <strong>Hector Grôppo G. Monteiro</strong>
         <span>Desenvolvimento Front End</span>
         <span>Análise de dados com Python</span>

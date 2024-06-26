@@ -14,11 +14,13 @@ export default function Post() {
     <article className={style.post}>
       <header>
         <div className={style.author}>
-          <img src="https://cdn-icons-png.flaticon.com/256/7967/7967000.png" alt="author "/>
+          <img src="./src/assets/foto1.jpeg" alt="author "/>
           <div className={style.authorInfo}>
-            <strong>Hector Grôppo G. Monteiro</strong>
-            <span>Programador Frontend</span>
-            <span>Automação em Python</span>
+            <strong>Hector Grôppo Guedes Monteiro</strong>
+            <strong>Cargos pretendidos</strong>
+            <span>Desenvolvedor Frontend</span>
+            <span>Programação em Python</span>
+            <span>Automoção em Python</span>
           </div>
         </div>
       </header>
@@ -58,6 +60,8 @@ export default function Post() {
       <div>
         <History/>
       </div>
+  
     </article>
+    
   )
 }

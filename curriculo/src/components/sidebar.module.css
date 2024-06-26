@@ -1,6 +1,7 @@
 .sidebar {
     background-color: var(--gray-800);
     border-radius: 10px;
+    height: 600px;
 }
 /* Cortar e comprimir a imagem de fundo */
 .cover {
