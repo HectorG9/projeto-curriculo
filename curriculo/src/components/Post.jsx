@@ -2,13 +2,19 @@
 import style from './post.module.css';
 // importando o component comments 
 import Comments from './Comments'
+// importando o component habilitys
+import Habilitys from './Habilitys'
+// importando o component personality
+import Personality from './Personality'
+// importando o component Historia
+import History from './History'
 // criando o post
 export default function Post() {
   return (
     <article className={style.post}>
       <header>
         <div className={style.author}>
-          <img src="https://cdn-icons-png.flaticon.com/256/7967/7967000.png" alt="author " />
+          <img src="https://cdn-icons-png.flaticon.com/256/7967/7967000.png" alt="author "/>
           <div className={style.authorInfo}>
             <strong>Hector Grôppo G. Monteiro</strong>
             <span>Programador Frontend</span>
@@ -25,13 +31,32 @@ export default function Post() {
         <a href="https://github.com/HectorG9">Repositório1</a>
         <a href="https://github.com/hectorgroppo">Repositório2</a>
         <h2>Ultimo Projeto</h2>
-        <a href="https://replicando-site-14x42jb5z-hectorg9s-projects.vercel.app/">Projeto Netflix, em andamento</a>
+        <a href="https://projeto-netflix-copy.vercel.app/">Projeto Netflix, em andamento</a>
       </div>
       <form action="">
-        <strong>Experiência Profissional</strong>
+        <h1>Experiência Profissional</h1>
       </form>
       <div>
         <Comments/>
+      </div>
+
+      <form action="">
+        <h1>Habilidades</h1>
+      </form>
+      <div>
+        <Habilitys/>
+      </div>
+      <form action="">
+        <h1>Personalidade</h1>
+      </form>
+      <div>
+        <Personality/>
+      </div>
+      <form action="">
+        <h1>História</h1>
+      </form>
+      <div>
+        <History/>
       </div>
     </article>
   )

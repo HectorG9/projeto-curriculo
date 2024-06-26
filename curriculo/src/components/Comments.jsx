@@ -9,11 +9,11 @@ export default function Comments() {
       <div className={style.commentsContent}>
           <header>
               <div>
-                  <strong>Experiência 1</strong>
+                  <strong>Experiência</strong>
               </div>
           </header>
-         <p>Experiência em criação de jogo no pycharm utilizando a biblioteca pygames</p> {/* insira sua experiência */}
-         <p>Experiência em criação de projetos como este</p>
+          <p>Experiência em criação de jogo no pycharm utilizando a biblioteca pygames</p> {/* insira sua experiência */}
+          <p>Experiência em criação de projetos como este</p>
       </div>
     </div>
     
