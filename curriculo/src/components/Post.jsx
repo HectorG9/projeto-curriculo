@@ -18,8 +18,8 @@ export default function Post() {
       </header>
       <div className={style.content}>
         <h2>Sobre Mim</h2> {/* sobre mim */}
-        <p>Estudei remotamente por conta própria, cursos sobre linguagem de programação python, e desenvolvimento full stack.</p>
-        <p>Formado profissionalmente através do senai no curso de desenvolvimento frontend</p> 
+        <p>Estudei remotamente por conta própria, cursos sobre linguagem de programação Python, e desenvolvimento Full Stack.</p>
+        <p>Formado profissionalmente através do Senai no curso de desenvolvimento Frontend</p> 
         <p>Calistenico, disciplinado, gosto de exatas, livros, games e tecnologia no geral</p>
         <h2>Link Repositórios</h2>
         <a href="https://github.com/HectorG9">Repositório1</a>
